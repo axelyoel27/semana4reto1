@@ -1,0 +1,71 @@
+body {
+	background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+	width: 475px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.imagen {
+	width: 100%;
+
+}
+
+h1 {
+    font-size: 3.5em;
+	font-family: 'Fraunces', serif;
+    padding: 20px;
+    margin-top: -30px;
+}
+
+h2 {
+    font-size: 1.5em;
+	color: hsl(228, 12%, 48%);
+	font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin-top: -25px;
+}
+
+.precio-actual {
+    font-size: 2.5em;
+	color: hsl(158, 90%, 27%);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.precio-antiguo {
+    font-size: 0.5em;
+	color: hsl(228, 12%, 48%);
+	font-family: 'Courier New', Courier, monospace;
+    text-decoration: line-through;
+    padding: 20px;
+}
+
+.button {
+    background-color: #28a745; /* Verde */
+    color: white;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 95%;
+    display: block;
+    margin: 0 auto; 
+    gap: 10px; 
+
+}
+
+.button:hover {
+    background-color: #218838; /* Color más oscuro cuando se pasa el cursor */
+}
